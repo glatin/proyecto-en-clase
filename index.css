@@ -1,0 +1,31 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.mainHeader {
+    height: 70px;
+}
+
+.mainHeader .content {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.mainHeader .content .logo {
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.mainHeader .content .menu .menuList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
